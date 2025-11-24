@@ -37,11 +37,11 @@
 
         KEYPAD {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none                                          &none  &kp KP_LPAR  &kp KP_NUM       &kp EQUAL     &kp SLASH   &kp KP_MULTIPLY  &none
-&none  &none  &none  &none  &none  &none  &none                                          &none  &kp KP_RPAR  &kp KP_NUMBER_7  &kp KP_N8     &kp KP_N9   &kp KP_MINUS     &none
-&none  &none  &none  &none  &none  &none  &none          &none  &none      &none  &none  &none  &none        &kp KP_N4        &kp KP_N5     &kp KP_N6   &kp KP_PLUS      &none
-&none  &none  &none  &none  &none  &none                        &none      &none                &none        &kp KP_N1        &kp KP_N2     &kp KP_N3   &kp KP_ENTER     &none
-&none  &none  &none  &none  &none         &kp BACKSPACE  &none  &none      &none  &none  &none               &none            &kp KP_COMMA  &kp KP_DOT  &none            &none
+&none  &none           &none         &none           &none            &none  &none                                          &none      &kp KP_LPAR  &kp KP_NUM       &kp EQUAL     &kp SLASH   &kp KP_MULTIPLY  &none
+&none  &none           &none         &none           &none            &none  &none                                          &none      &kp KP_RPAR  &kp KP_NUMBER_7  &kp KP_N8     &kp KP_N9   &kp KP_MINUS     &none
+&none  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none  &none          &none  &none      &none  &none  &kp RCTRL  &none        &kp KP_N4        &kp KP_N5     &kp KP_N6   &kp KP_PLUS      &none
+&none  &none           &none         &none           &none            &none                        &none      &none                    &none        &kp KP_N1        &kp KP_N2     &kp KP_N3   &kp KP_ENTER     &none
+&none  &none           &none         &none           &none                   &kp BACKSPACE  &none  &none      &none  &none  &none                   &none            &kp KP_COMMA  &kp KP_DOT  &none            &none
             >;
         };
 
